@@ -12,7 +12,7 @@ Spring Security Core 2.0
 - Na inicialização, crio um User com as seguintes credenciais: `username: "samuel.silva@asaas.com" passoword: "senha"`
 - Seto sua role para `ROLE_ADMIN`
 
-- Crio então um template auth/login.gsp e um endpoint para ele e seto a permissão desse entpoint apenas para `ROLE_ADMIN`
+- Crio então um template `auth/login.gsp` e um endpoint para ele e seto a permissão desse entpoint apenas para `ROLE_ADMIN`. Essa tela será acessada após um login bem sucedido. 
 
 - Para verificação no H2 da persistencia, libero acesso total para `/dbconsole/**`
 
