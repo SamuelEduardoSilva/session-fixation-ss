@@ -10,7 +10,7 @@ Spring Security Core 2.0
 - O projeto conta com 3 entidades. User, Role e UserRole.
 
 - Na inicialização, crio um User com as seguintes credenciais: `username: "samuel.silva@asaas.com" passoword: "senha"`
-- Seto sua role para `ROLE_ADMIN`
+- Seto sua role para `ROLE_ADMIN`. Tudo isto é feito em `Bootstrap.groovy`.
 
 - Crio então um template `auth/login.gsp` e um endpoint para ele e seto a permissão desse entpoint apenas para `ROLE_ADMIN`. Essa tela será acessada após um login bem sucedido. 
 
