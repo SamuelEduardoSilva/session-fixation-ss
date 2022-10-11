@@ -17,3 +17,5 @@ Spring Security Core 2.0
 - Para verificação no H2 da persistencia, libero acesso total para `/dbconsole/**`
 
 - Com isso, ao acessar `/login/auth`, é possível fazer login com as credenciais acima e verificar a renovação do cookie da sessão.
+
+- Foi notada a assertividade do plugin em tratar o Session Fixation. Inclusive, se setamos `useSessionFixationPrevention` para `false` e refazemos o teste, é possível notar a não renovação do cookie da sessão.
